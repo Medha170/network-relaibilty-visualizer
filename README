@@ -1,4 +1,3 @@
-````markdown
 # 📊 Graph Visualizer
 
 A dynamic, interactive web app to visualize, analyze, and edit graphs — supporting articulation point and bridge detection using React Flow and advanced graph algorithms.
@@ -47,14 +46,14 @@ cd client
 npm install
 
 # 3. Start the React app
-npm start
+npm run dev
 ````
 
 ```bash
 # 4. In another terminal, run the server
 cd server
 npm install
-npm start
+node index.js
 ```
 
 ---
@@ -72,17 +71,4 @@ These algorithms power the backend `/api/analyze-graph` endpoint.
 
 ## 👤 Author
 
-Built with ❤️ by [Medha Shree](https://github.com/medhashree)
-
----
-
-## 📜 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-```
-
----
-
-Let me know when you have the actual deployed link and demo video URL — I’ll plug them in and even generate a badge section if needed (like Netlify/Vercel, GitHub stars, etc.).
-```
+Built with ❤️ by [Medha Shree](https://github.com/Medha170)
