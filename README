@@ -6,51 +6,78 @@ A dynamic, interactive web app to visualize, analyze, and edit graphs — suppor
 
 ## 🚀 Live Demo
 
-🌐 [View Deployed App](https://your-deployment-link.vercel.app)  
-🎥 [Watch Demo Video](https://your-demo-video-link.com)
+* 🌐 [View Deployed App](https://amazing-sunburst-0490fa.netlify.app)
+* 🎥 [Watch Demo Video](https://your-demo-video-link.com)
 
 ---
 
 ## ✨ Features
 
-- 🎯 **Graph Creation**: Create custom graphs by specifying nodes and edges.
-- 🧠 **Graph Analysis**: Detect articulation points and bridges with one click.
-- 🎨 **Graph Visualization**: Clean UI with circular node layout using `react-flow`.
-- 📷 **SVG Thumbnails**: Auto-generated graph previews for each saved graph.
-- ✏️ **Editable Graphs**: Edit your custom graphs directly from the dashboard.
-- 🔒 **Read-Only Defaults**: Access and analyze pre-defined read-only graphs.
-- 💾 **Persistent Storage**: Save your graphs and revisit them anytime.
-- 👤 **User Authentication**: Supports multi-user graph storage (via context).
+* 🎯 **Graph Creation**: Create custom graphs by specifying nodes and edges.
+* 🧠 **Graph Analysis**: Detect articulation points and bridges with one click.
+* 🎨 **Graph Visualization**: Clean UI with circular node layout using `react-flow`.
+* 📷 **SVG Thumbnails**: Auto-generated graph previews for each saved graph.
+* ✏️ **Editable Graphs**: Edit your custom graphs directly from the dashboard.
+* 🔒 **Read-Only Defaults**: Access and analyze pre-defined read-only graphs.
+* 💾 **Persistent Storage**: Save your graphs and revisit them anytime.
+* 👤 **User Authentication**: Multi-user support via React Context.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: React, React Router, React Flow Renderer, CSS Modules
-- **Backend**: Node.js, Express
-- **Database**: MongoDB + Mongoose
-- **State Management**: React Context
-- **Deployment**: Vercel (frontend), Render or Railway (backend) *(customizable)*
+**Frontend**
+
+* React
+* React Router
+* React Flow Renderer
+* CSS Modules
+
+**Backend**
+
+* Node.js
+* Express
+
+**Database**
+
+* MongoDB with Mongoose
+
+**State Management**
+
+* React Context
+
+**Deployment**
+
+* **Frontend**: Vercel
+* **Backend**: Render / Railway *(configurable)*
 
 ---
 
 ## 🧪 Local Setup
 
+Clone and run the project locally:
+
 ```bash
 # 1. Clone the repository
 git clone https://github.com/Medha170/network-reliablity-visualizer.git
 cd graph-visualizer
+```
 
+### Client Setup
+
+```bash
 # 2. Install client dependencies
 cd client
 npm install
 
 # 3. Start the React app
 npm run dev
-````
+```
+
+### Server Setup
 
 ```bash
-# 4. In another terminal, run the server
+# 4. In another terminal, run the backend server
 cd server
 npm install
 node index.js
@@ -60,12 +87,12 @@ node index.js
 
 ## 🧠 Core Algorithms
 
-Implemented in `graphUtils.js`:
+Located in `graphUtils.js`:
 
-* **Tarjan's Algorithm** for finding articulation points
-* **DFS Bridge Detection** with edge classification
+* 🔍 **Tarjan’s Algorithm** – For finding articulation points
+* 🌉 **DFS-based Bridge Detection** – Identifies critical connections
 
-These algorithms power the backend `/api/analyze-graph` endpoint.
+These are exposed via the `/api/analyze-graph` API endpoint.
 
 ---
 
