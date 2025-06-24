@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "g1",
+    "name": "Simplest Graph",
+    "nodes": 3,
+    "edges": [[0, 1], [1, 2]],
+    "readOnly": true
+  },
+  {
+    "_id": "g2",
+    "name": "Basic Star",
+    "nodes": 5,
+    "edges": [[0, 1], [0, 2], [0, 3], [0, 4]],
+    "readOnly": true
+  },
+  {
+    "_id": "g3",
+    "name": "Chain + Branch",
+    "nodes": 6,
+    "edges": [[0, 1], [1, 2], [2, 3], [2, 4], [4, 5]],
+    "readOnly": true
+  },
+  {
+    "_id": "g4",
+    "name": "Complex Playground",
+    "nodes": 7,
+    "edges": [[0,1],[1,2],[1,3],[2,3],[3,4],[4,5],[4,6]],
+    "readOnly": true
+  }
+]

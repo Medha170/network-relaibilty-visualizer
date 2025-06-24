@@ -1,0 +1,55 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #1e1e1e;
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.actions{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.title {
+  color: white;
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+.editButton {
+  background-color: #007bff;
+}
+
+.graphWrapper {
+  flex-grow: 1;
+  position: relative;
+}

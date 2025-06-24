@@ -1,0 +1,8 @@
+/* GraphThumbnail.module.css */
+.thumbnailWrapper {
+  width: 150px;
+  height: 150px;
+  background-color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}

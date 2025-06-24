@@ -1,0 +1,88 @@
+````markdown
+# 📊 Graph Visualizer
+
+A dynamic, interactive web app to visualize, analyze, and edit graphs — supporting articulation point and bridge detection using React Flow and advanced graph algorithms.
+
+---
+
+## 🚀 Live Demo
+
+🌐 [View Deployed App](https://your-deployment-link.vercel.app)  
+🎥 [Watch Demo Video](https://your-demo-video-link.com)
+
+---
+
+## ✨ Features
+
+- 🎯 **Graph Creation**: Create custom graphs by specifying nodes and edges.
+- 🧠 **Graph Analysis**: Detect articulation points and bridges with one click.
+- 🎨 **Graph Visualization**: Clean UI with circular node layout using `react-flow`.
+- 📷 **SVG Thumbnails**: Auto-generated graph previews for each saved graph.
+- ✏️ **Editable Graphs**: Edit your custom graphs directly from the dashboard.
+- 🔒 **Read-Only Defaults**: Access and analyze pre-defined read-only graphs.
+- 💾 **Persistent Storage**: Save your graphs and revisit them anytime.
+- 👤 **User Authentication**: Supports multi-user graph storage (via context).
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, React Router, React Flow Renderer, CSS Modules
+- **Backend**: Node.js, Express
+- **Database**: MongoDB + Mongoose
+- **State Management**: React Context
+- **Deployment**: Vercel (frontend), Render or Railway (backend) *(customizable)*
+
+---
+
+## 🧪 Local Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/Medha170/network-reliablity-visualizer.git
+cd graph-visualizer
+
+# 2. Install client dependencies
+cd client
+npm install
+
+# 3. Start the React app
+npm start
+````
+
+```bash
+# 4. In another terminal, run the server
+cd server
+npm install
+npm start
+```
+
+---
+
+## 🧠 Core Algorithms
+
+Implemented in `graphUtils.js`:
+
+* **Tarjan's Algorithm** for finding articulation points
+* **DFS Bridge Detection** with edge classification
+
+These algorithms power the backend `/api/analyze-graph` endpoint.
+
+---
+
+## 👤 Author
+
+Built with ❤️ by [Medha Shree](https://github.com/medhashree)
+
+---
+
+## 📜 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+```
+
+---
+
+Let me know when you have the actual deployed link and demo video URL — I’ll plug them in and even generate a badge section if needed (like Netlify/Vercel, GitHub stars, etc.).
+```
